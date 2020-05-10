@@ -1,0 +1,8 @@
+E:\study\etcd\CSharpEtcdClient\bin\Debug\netstandard2.0\CSharpEtcd.deps.json
+E:\study\etcd\CSharpEtcdClient\bin\Debug\netstandard2.0\CSharpEtcd.dll
+E:\study\etcd\CSharpEtcdClient\bin\Debug\netstandard2.0\CSharpEtcd.pdb
+E:\study\etcd\CSharpEtcdClient\obj\Debug\netstandard2.0\CSharpEtcd.csproj.CoreCompileInputs.cache
+E:\study\etcd\CSharpEtcdClient\obj\Debug\netstandard2.0\CSharpEtcd.AssemblyInfoInputs.cache
+E:\study\etcd\CSharpEtcdClient\obj\Debug\netstandard2.0\CSharpEtcd.AssemblyInfo.cs
+E:\study\etcd\CSharpEtcdClient\obj\Debug\netstandard2.0\CSharpEtcd.dll
+E:\study\etcd\CSharpEtcdClient\obj\Debug\netstandard2.0\CSharpEtcd.pdb
