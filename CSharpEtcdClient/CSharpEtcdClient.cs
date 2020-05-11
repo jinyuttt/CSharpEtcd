@@ -10,12 +10,12 @@ namespace CSharpEtcd
 
     public class CSharpEtcdClient
     {
-        readonly EtcdClient client = null;
+         EtcdClient client = null;
         public CSharpEtcdClient(string connectionString, int port = 2379, string username = "", string password = "",
               string caCert = "", string clientCert = "", string clientKey = "", bool publicRootCa = false)
         {
             client = new EtcdClient(connectionString, port, username, password, caCert, clientCert, clientKey, publicRootCa);
-            ClientMgr.Instance.Client = client;
+            ClientMgr.Instance.Init ( client);
         }
 
         public EtcdClient GetEtcdClient()
@@ -189,8 +189,6 @@ namespace CSharpEtcd
         }
         public UnlockResponse UnLock(string key)
         {
-
-           
             var rsp = client.Unlock(key);
             return rsp.FromProto();
         }

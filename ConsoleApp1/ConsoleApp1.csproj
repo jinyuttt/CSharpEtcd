@@ -80,6 +80,12 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CSharpEtcdClient\CSharpEtcd.csproj">
+      <Project>{0f6ac5d5-3b7f-47a1-b06a-a35c393afe1f}</Project>
+      <Name>CSharpEtcd</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\Grpc.Core.2.28.1\build\net45\Grpc.Core.targets" Condition="Exists('..\packages\Grpc.Core.2.28.1\build\net45\Grpc.Core.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

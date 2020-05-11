@@ -1,9 +1,4 @@
-﻿using dotnet_etcd;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using CSharpEtcd;
 
 namespace ConsoleApp1
 {
@@ -11,7 +6,9 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            var etcdClient = new EtcdClient("127.0.0.1:2379");
+            var etcdClient =new  CSharpEtcdClient("https://localhost:2379");
+            etcdClient.Put("jin", "yu");
+          string v=  etcdClient.GetVal("jin");
           
         }
     }

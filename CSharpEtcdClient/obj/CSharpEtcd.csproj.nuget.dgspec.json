@@ -1,34 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "E:\\study\\etcd\\CSharpEtcdClient\\CSharpEtcd.csproj": {}
+    "E:\\Study\\etcd\\CSharpEtcd\\CSharpEtcdClient\\CSharpEtcd.csproj": {}
   },
   "projects": {
-    "E:\\study\\etcd\\CSharpEtcdClient\\CSharpEtcd.csproj": {
+    "E:\\Study\\etcd\\CSharpEtcd\\CSharpEtcdClient\\CSharpEtcd.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\study\\etcd\\CSharpEtcdClient\\CSharpEtcd.csproj",
+        "projectUniqueName": "E:\\Study\\etcd\\CSharpEtcd\\CSharpEtcdClient\\CSharpEtcd.csproj",
         "projectName": "CSharpEtcd",
-        "projectPath": "E:\\study\\etcd\\CSharpEtcdClient\\CSharpEtcd.csproj",
-        "packagesPath": "D:\\Temp\\Nuget\\packages",
-        "outputPath": "E:\\study\\etcd\\CSharpEtcdClient\\obj\\",
+        "projectPath": "E:\\Study\\etcd\\CSharpEtcd\\CSharpEtcdClient\\CSharpEtcd.csproj",
+        "packagesPath": "C:\\Users\\jinyu\\.nuget\\packages\\",
+        "outputPath": "E:\\Study\\etcd\\CSharpEtcd\\CSharpEtcdClient\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jinyu\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress .NET Core Desktop 19.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.2.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\NuGet.Config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Users\\jinyu\\AppData\\Local\\Esri\\NuGet": {},
-          "D:\\Temp\\Nuget\\packages": {},
           "d:\\Program Files (x86)\\DevExpress 19.2\\.NET Core Desktop Libraries\\System\\Components\\Packages": {},
-          "d:\\Program Files (x86)\\DevExpress 19.2\\Components\\System\\Components\\Packages": {},
+          "d:\\Program Files\\DevExpress 19.2\\Components\\System\\Components\\Packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

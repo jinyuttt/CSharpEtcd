@@ -74,16 +74,20 @@ namespace CSharpEtcd
         }
         public static Entity.KeyValue FromProto(this KeyValue response)
         {
-            return new Entity.KeyValue()
+            if (response != null)
             {
-                CreateRevision=response.CreateRevision,
-                 Key=response.Key.FromProto(),
-                  Lease=response.Lease,
-                   ModRevision=response.ModRevision,
-                    Value=response.Value.FromProto(),
-                     Version=response.Version,
-                      CalculateSize=response.CalculateSize()
-            };
+                return new Entity.KeyValue()
+                {
+                    CreateRevision = response.CreateRevision,
+                    Key = response.Key.FromProto(),
+                    Lease = response.Lease,
+                    ModRevision = response.ModRevision,
+                    Value = response.Value.FromProto(),
+                    Version = response.Version,
+                    CalculateSize = response.CalculateSize()
+                };
+            }
+            return null;
         }
 
         public static PutRequest ToProto(this Entity.PutRequest  request)
